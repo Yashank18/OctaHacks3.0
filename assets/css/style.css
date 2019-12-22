@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #ffffff;
     overflow-x: hidden;
 }
 canvas {
@@ -15,51 +15,24 @@ canvas {
 nav{
     position: fixed;
 }
-.navbar{
-    background: #000000;
-}
+
 .content{
  
     color: #FFFFFF;
     font-size: 26px;
     font-weight: bold;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #000;
     position: relative;
     z-index: 0;
 }
 
-/* ---- particles.js container ---- */
-
-#particles-js {
-background: url('assets/img/earth4.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    
-    min-height: 800px;
-    background-repeat: no-repeat;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-}
 #wrapper{
     
     position:relative;
     width:100vw;
-    height:800px;
+    height:100vh;
 }
 
-#rocket{
-    top:0;
-    animation: wiggle 1s infinite;
-    margin-top:100px;
-    width:400px;
-    
-}
+
 @keyframes wiggle {
   0% { transform: translate(0px, 6px) rotate(0deg); }
   10% { transform: translate(0px, 12px) rotate(0deg); }
@@ -74,13 +47,7 @@ background: url('assets/img/earth4.jpg');
   100% { transform: translate(0px, 0px) rotate(0deg); }
 }
 
-#section2{
-    width:100vw;
-    height:500px;
-    z-index: 1;
-    
-    
-}
+
 #big-text-intro{
        margin-top: 300px;
         font-size: 1.9em;
@@ -90,14 +57,4 @@ background: url('assets/img/earth4.jpg');
     font-weight: 100;
     text-align: justify;
     
-}
-.navigation-clean-button .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button {
-    background: #465765;
-    padding-left:25px;
-     padding-right:25px;
-}
-.navigation-clean-button:hover .navbar-text .action-button, .navigation-clean-button .navbar-text .action-button:active, .navigation-clean-button .navbar-text .action-button:hover {
-    background: #fff;
-     padding-left:25px;
-     padding-right:25px;
 }
