@@ -1,195 +1,129 @@
-<html>
-  <head>
-          <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="Octahacks, hackathon, chitkara university, coding, event, summer, 36 hours"/>
-    <meta name="Description" content="OctaHacks is " />
-  <title> OctaHacks 3.0 </title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="vibrate.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Octhacks 3.0</title>
+  <meta charset="utf-8">
+  <meta >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="icon" href="octahacks_logo.png" type="image/png" sizes="16x16">
+
+
+
+  <!-- For navbar -->
+  <script type="text/javascript">$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+
+  });
+
+
+
+});</script>
+<!-- change navbar on scroll color here -->
+<style type="text/css">
+  .fixed-top.scrolled {
+  background-color: #EBEBE7 !important;
+  transition: background-color 800ms linear;
+}
+
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4285f4;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+
+
+
+</style>
+  
+
+  <!-- jquery -->
   </head>
-  <body>
+<body >
+<div style="background-image:url('bg-2.png');background-size: cover">
 
-       <div id="vertical-nav">
-           <center>
-           <img id="dsc-logo" src="assets/img/dsc-logo.png" />
+<nav class="navbar navbar-expand-md bg-transparent navbar-light fixed-top">
+  <a class="navbar-brand " href="#" style="margin-left: 5%;"><img src="octahacks.png" width="10%"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse  " id="collapsibleNavbar">
+    <ul class="navbar-nav  center " style="margin-right: 5%">
+      <li class="nav-item" style="padding-right: 20px;font-weight: bold;">
+        <a class="nav-link hvr-shutter-out-horizontal" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item" style="padding-right: 20px;font-weight: bold;">
+        <a class="nav-link hvr-shutter-out-horizontal" href="#">About Us</a>
+      </li>
+      <li class="nav-item" style="font-weight: bold;">
+        <a class="nav-link hvr-shutter-out-horizontal" href="#">Team</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
 
-<!--
-           <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
-                        <li class="nav-item" ><a class="nav-link" href="#">Timeline</a></li>
+<div  class="container-fluid" >
+  <div class="row">
+    <div class="col-sm-6" style="margin-top: 10%">
 
-          </ul>
--->
-
-               <div id="navbar-content">
-               <ul class="nav navbar-nav mr-auto">
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><i class="fa fa-home" style="color:#4286f5"></i></a></li>
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#section2"><i class="fa fa-bicycle" style="color:#ea4235"></i></a></li>
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#white-section"><i class="fa fa-safari fa-spin"></i></a></li>
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#section3"><i class="fa fa-beer" style="color:#f9bd0b"></i></a></li>
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><i class="fa fa-calendar" style="color:#109d58"></i></a></li>
-
-  <li class="nav-item" role="presentation"><a class="nav-link active" href="#"><i class="fa fa-at"></i></a></li>
-
-
-                </ul>
-                   </div>
-        </center>
+      <h1 style="text-align: center;font-family: sans-serif">Octahacks 3.0</h1>
+      
     </div>
-       <div id="wrapper" style="background-size: cover;background-attachment: fixed;background-position: center;">
-        <div class="content">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" id="intro-section-left">
-                    <h1 id="big-text-intro">Octahacks 3.0</h1>
-<!--                    <p id="small-text-intro" style="font-size: 12px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>-->
-                    <p id="small-text-intro" style="font-size: 24px;margin-top:-15px;">Tech it Easy!</p>
-                </div>
-<!--                <div class="col-md-6"><img id="rocket" src="assets/img/cd.png" /></div>-->
-
-            </div>
-        </div>
-
-        </div>
-
-
-
-      <section class="clearfix"  style="min-height: 800px;background-repeat: no-repeat;position: absolute;width: 100vw;height: 100vh;position: absolute;top: 15vh;left: 500;z-index: 0;">
-
-	<ul class="solarsystem">
-	  <li class="sun"><a href="#sun"><span>Sun</span></a></li>
-	  <li class="mercury"><a href="#mercury"><span>Mercury</span></a></li>
-	  <li class="venus"><a href="#venus"><span>Venus</span></a></li>
-	  <li class="earth"><a href="#earth"><span>Earth<span class="moon"> &amp; Moon</span></span></a></li>
-	  <li class="mars"><a href="#mars"><span>Mars</span></a></li>
-	  <li class="asteroids_meteorids"><span>Asteroids &amp; Meteorids</span></li>
-	  <li class="jupiter"><a href="#jupiter"><span>Jupiter</span></a></li>
-	  <li class="saturn"><a href="#saturn"><span>Saturn &amp; <span class="ring">Ring</span></span></a></li>
-	  <li class="uranus"><a href="#uranus"><span>Uranus</span></a></li>
-	  <li class="neptune"><a href="#neptune"><span>Neptune</span></a></li>
-	  <li class="pluto"><a href="#pluto"><span>Pluto</span></a></li>
-	</ul>
-
-</section>
-      </div>
-      <div id="section2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12"></div>
-            </div>
-        </div>
+    <div class="col-sm-6" >
+      <img src="svg2.svg" height="40%" style="float: right;margin-top: 36%" id="rocket" >
     </div>
-    <!--==========================
-      About Section
-    ============================-->
-    <section id="about">
-
-      <div class="row">
-          <div class="column">
-          <img src="assets/img/octa.png" alt="Octahacks image" hspace="60" height="220px" width="350px" >
-          </div>
-          <div class="column">
-            <h2>About OCTAHACKS 3.0</h2>
-            <p>OCTAHACKS 3.0 Hackathon organised by Developer Student Club , Chitkara University provides you the platform to showcase
-             your ideas and technical skills at a recognized level. This
-            is the perfect opportunity to get those brilliant ideas out of your amazing minds and onto the computer screens. Coming
-            again this year OCTAHACKS brings you with more interesting and challenging problem statements than ever before. So get
-            ready for OCTAHACKS 3.0 to exhilarate you with newer ideas,more rewards and a fun packed experience.</p>
-          </div>
-          <div class="column">
-           <h1 style="color: white;margin-top: 15%;margin-left: 8%;color: white;font-size: 32px;">Prizes Worth 1 lakh +<br><br>
-             <p style="font-size: 25px;">First Prize is 30 Thousand Cash</p>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-      Timeline Section
-    ============================-->
-
-    <section id="timeline">
-    <h1>OCTAHACKS 3.0 TIMELINE</h1>
-    <div class="entries">
-      <div class="entry">
-        <div class="title big">27 DECEMBER 2019
-        </div>
-      </div>
-    <div class="entry">
-      <div class="title">10:00 AM</div>
-      <div class="body">
-        <p>Distribition of ID cards and opening Ceremony of OCTAHACKS 3.0</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">1PM</div>
-      <div class="body">
-        <p>Lunch in SQUARE ONE</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title ">5 PM</div>
-      <div class="body">
-        <p>Snacks time and fun games</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">9 PM</div>
-      <div class="body">
-        <p>Dinner at SQUARE ONE and mid evaluation.</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title big">28 DECEMBER 2019
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">2 AM</div>
-      <div class="body">
-        <p>Coffee time with some fun games</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">7 AM</div>
-      <div class="body">
-        <p>Breakfast at SQUARE ONE and second evaluation</p>
-      </div>
-    </div>
-    <div class="entry">
-      <div class="title">2 PM</div>
-      <div class="body">
-        <p>Final submission and RESULTS!!!</p>
-      </div>
-    </div>
+    
   </div>
-  </section>
+</div>
+</div>
 
-
-      <div id="white-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12"></div>
-            </div>
-        </div>
-    </div>
-
-       <div id="section3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12"></div>
-            </div>
-        </div>
-    </div>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
- </body>
+</body>
 </html>
+
+
