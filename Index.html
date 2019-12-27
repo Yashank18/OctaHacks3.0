@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Octhacks 3.0</title>
+  <title>OctaHacks 3.0</title>
   <meta charset="utf-8">
   <meta >
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +10,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<link rel="icon" href="octahacks_logo.png" type="image/png" sizes="16x16">
+<link rel="icon" href="images/octahacks_logo.png" type="image/png" sizes="16x16">
 
-
+<link rel="stylesheet" href="css/style.css">
 
   <!-- For navbar -->
   <script type="text/javascript">$(function () {
@@ -24,75 +24,21 @@
 
 
 
-});</script>
-<!-- change navbar on scroll color here -->
-<style type="text/css">
-  .fixed-top.scrolled {
-  background-color: #EBEBE7 !important;
-  transition: background-color 800ms linear;
-}
-
-.hvr-shutter-out-horizontal {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-.hvr-shutter-out-horizontal:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #4285f4;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
-  color: white;
-}
-.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
+});
+</script>
 
 
+</head>
+<body>
+<div style="background-image:url('images/bg-2.png');background-size:cover;height: 100%;background-attachment: fixed;">
 
-
-</style>
-  
-
-  <!-- jquery -->
-  </head>
-<body >
-<div style="background-image:url('bg-2.png');background-size: cover">
-
+<!-- Navbar -->
 <nav class="navbar navbar-expand-md bg-transparent navbar-light fixed-top">
-  <a class="navbar-brand " href="#" style="margin-left: 5%;"><img src="octahacks.png" width="10%"></a>
+ <a class="navbar-brand " href="#" style="margin-left: 5%;"><img src="images/octahacks.png" width="10%"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse  " id="collapsibleNavbar">
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav  center " style="margin-right: 5%">
       <li class="nav-item" style="padding-right: 20px;font-weight: bold;">
         <a class="nav-link hvr-shutter-out-horizontal" href="#">Contact Us</a>
@@ -112,17 +58,63 @@
   <div class="row">
     <div class="col-sm-6" style="margin-top: 10%">
 
-      <h1 style="text-align: center;font-family: sans-serif">Octahacks 3.0</h1>
+      <h1></h1>
       
     </div>
     <div class="col-sm-6" >
-      <img src="svg2.svg" height="40%" style="float: right;margin-top: 36%" id="rocket" >
+      <img src="images/svg2.svg" height="40%" style="float: right;margin-top: 36%" id="rocket" >
     </div>
-    
   </div>
 </div>
 </div>
+<br>
+  
+<!-- About -->
+<div class="container">
+  <h2 style="text-align: center;margin-top: 40px;height: 100px;">What is OctaHacks?</h2>
+  
+  <p style="padding-left: 15px; padding-right: 15px;text-align: justify;">OctaHacks 2.0 ​is the continuation to the last year hackathon event conducted by UCollege Community (Udacity) and ​ Developer Student Club ​ (DSC) together. OctaHacks provides the participants with a unique opportunity to merge their creative ideas with their technical skills to build something new and exemplary. At OctaHacks, participants can meet fellow hackers, learn new technologies, and hone their skills alongside seasoned mentors.
+    Participants will be building a prototype in this 30 hour event. At the end, they will pitch and showcase their ideas which will be evaluated by a panel of judges to declare the top 3 teams. This is a hackathon for out-of-the-box thinkers, creatives, and innovators. It's scheduled on 20 and 21 September 2019.</p>
+</div>
 
+<!-- Timeline -->
+<div class="container">
+  <h2 style="text-align: center;margin-top: 40px;height: 100px;">Timeline</h2>
+    <div class="timeline" >
+      <div class="item">
+        <h5 class="schedule">AIV Dubai</h5>
+          <div>2014 - Present</div>
+      </div>
+  
+      <div class="item">
+        <h5 class="schedule">AIV Dubai</h5>
+          <div>2014 - Present</div>
+      </div>
+  
+      <div class="item">
+        <h5 class="schedule">AIV Dubai</h5>
+          <div>2014 - Present</div>
+      </div>
+  
+      <div class="item">
+        <h5 class="schedule">AIV Dubai</h5>
+          <div>2014 - Present</div>
+      </div>
+  
+      <div class="item">
+        <h5 class="schedule">AIV Dubai</h5>
+          <div>2014 - Present</div>
+      </div>
+  
+    </div>
+    <!--
+    <div class="col-lg-6">  
+      <img class="img-fluid" src="images/timeline.png" alt="schedule" width="460" height="345">
+    </div>
+  </div>
+-->
+  </div>
+    
 </body>
 </html>
 
