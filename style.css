@@ -397,7 +397,7 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
         text-align: center;
     }
     #wrapper{
-         background: url('assets/img/chrome-mobile.png');
+         background: url('assets/img/chrome-mobile.png')!important;
     }
 }
 
