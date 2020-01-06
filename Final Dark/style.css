@@ -1,0 +1,100 @@
+/*!IMPORTANT*/
+/*PLEASE GIVE A WIDTH OF AT LEAST 102vw TO ANY OF YOUR SECTIONS, TO COVER THE SPACE LEFT BY SLIM SCROLL BAR*/
+
+
+body{
+    overflow-x: hidden;
+}
+
+/*CSS FOR LANDING SECTION BEGINS*/
+#wrapper {
+
+  position: relative;
+  background-image: url("img/top.png");
+
+  height: 100vh;
+  width:102vw; /* Changed width to 102 to prevent unwanted white bars*/
+  margin-top: -10px;
+  margin-left:-10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    z-index: 0;
+}
+#logo{
+    width:400px;
+    filter:drop-shadow(10px 10px 5px black);
+    margin-top:220px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #logo{
+     width:80vw;   
+    }        
+    
+}
+
+.register-btn{
+    
+    padding:5px 40px;
+    background: none;
+    color:white;
+    border:1px solid white;
+    border-radius: 20px;
+    cursor:hand;
+    box-shadow: 4px 4px 10px #000;
+    
+       transition: all ease-in-out 0.5s;
+    outline: none;
+}
+.register-btn:hover{
+    background:white;
+    outline: none;
+    color:black;
+    transition: all ease-in-out 0.5s;
+}
+
+
+/*LANDING SECTION CSS ENDS*/
+
+#section2{
+    background: black;
+    height: 500px;
+    width:102vw;
+}
+
+
+
+
+/*CSS FOR CUSTOM SCROLLBAR*/
+
+::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: black;
+ 
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #8166cd;
+
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+
+    }
+
