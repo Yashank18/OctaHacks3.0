@@ -138,7 +138,7 @@ body{
       /* Needed for children to be absolutely positioned relative to the parent. */
       position: relative;
       /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-      height: 70vh;
+      height: 50vh;
 
     }
 
