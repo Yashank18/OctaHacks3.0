@@ -334,19 +334,43 @@ body{
 }
 
 /*COUNTDOWN*/
-/*
-.timer {
+#timer {
   display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
+  line-height: 1;
+  padding: 20px;
 }
 
-.timer span {
+span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 15px;
   color: white;
 }
-*/
 
+#days {
+  font-size: 70px;
+  color: #8847dd;
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+}
+#hours {
+  font-size: 70px;
+  color:#8847dd;
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+}
+#minutes {
+  font-size: 70px;
+  color: #8847dd;
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+}
+#seconds {
+  font-size: 70px;
+  color: #8847dd;
+  display: inline-block;
+  line-height: 1;
+  padding: 20px;
+}
