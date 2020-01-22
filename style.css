@@ -297,7 +297,7 @@ body{
   position: relative;
   border-radius: 6px;
   border:medium solid #48128f;
-  color: rgb(187, 186, 186);
+  color:white;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
