@@ -198,9 +198,9 @@ body{
 .end { margin-right: 0 !important; }
 /* Column Grids End */
 
-.wrapperr { width: 70%; margin: 20px auto; position: relative;color: white;font-size: 20px;}
+.wrapperr { width: 70%; margin: 20px auto; position: relative;color: white;font-size: 15px;}
 .counter {  padding: 10px 0; border-radius: 5px;}
-.count-title {  margin-top: 10px; margin-bottom: 0; text-align: center; }
+.count-title {  margin-top: 10px; margin-bottom: 0; text-align: center; font-size: 35px;}
 .count-text {   margin-top: 10px; margin-bottom: 0; text-align: center; }
 .fa-2x { margin: 0 auto; float: none; display: table; color:#48128f; }
 
