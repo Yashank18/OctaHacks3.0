@@ -95,6 +95,14 @@ body{
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
 }
+@media only screen and (max-width: 564px) {
+
+    .section2{
+      display: ;
+    }
+    
+}
+
 .static {
   background:black;
 }
@@ -257,6 +265,22 @@ body{
 
 
 /*TIMELINE CSS*/
+
+.timelinesection{
+  background-color: black;
+  width:102vw;
+      /* Needed for children to be absolutely positioned relative to the parent. */
+      position: relative;
+      /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+      max-height: 130vh;
+}
+
+@media only screen and (max-width: 600px){
+  .timelinesection{
+    max-height: 250vh;
+  }
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
