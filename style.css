@@ -567,6 +567,7 @@ body {
     background: #48128f !important;
     transition: all ease-in-out 0.8s;
     border:1px solid black;
+    cursor: hand;
 }
 .card-ka-content{
     transition: all ease-in-out 0.8s;
