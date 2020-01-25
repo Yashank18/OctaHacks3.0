@@ -104,14 +104,25 @@ body{
     margin-top:220px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 564px) {
 
     #logo{
      width:80vw;   
     }        
+
+    .aboutsection{
+      min-height: 300vh;
+      background-color: black;
+       padding-top: 10px;
+    }
     
 }
 
+.aboutsection{
+  text-align: center;min-height: 100vh;
+   padding-top: 10px;
+   background-color: black;
+}
 .register-btn{
     
     padding:5px 40px;
