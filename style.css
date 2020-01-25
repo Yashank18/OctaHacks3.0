@@ -21,7 +21,9 @@ body {
   section {
     padding-top: 10px;
   }
+
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -148,7 +150,39 @@ body{
     color: white;
     font-size: 52px;
 }
+.counttext{
+  text-align: center; color:#8847dd; font-size: 20px;
+}
 
+@media only screen and (max-width: 768px) {
+  .sectionn-heading{
+    font-size: 35px;
+   
+    width: 100%;
+  }
+  
+}
+@media only screen and (max-width: 768px){
+  .aboutrow{
+    max-height: 100%;
+
+  }
+  .counttext{
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .abouttext{
+    margin:0;
+    
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .about-text{
+    
+  }
+}
 
 /*CSS FOR CUSTOM SCROLLBAR*/
 
