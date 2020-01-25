@@ -164,22 +164,28 @@ body{
 .counttext{
   text-align: center; color:#8847dd; font-size: 20px;
 }
+.aboutrow{
+  max-width: 55%;margin: 0 auto;text-align: center; 
+}
 
 @media only screen and (max-width: 768px) {
   .sectionn-heading{
-    font-size: 35px;
-   
-    width: 100%;
+    font-size: 30px;
+   text-align: center;
+
+    max-width: 100%;
   }
   
 }
 @media only screen and (max-width: 768px){
   .aboutrow{
     max-height: 100%;
+    max-width: 85%;
+
 
   }
   .counttext{
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 768px){
@@ -378,6 +384,8 @@ body{
   }
 }
 
+
+
 /*COUNTDOWN*/
 #timer {
   display: inline-block;
@@ -390,6 +398,7 @@ span {
   font-size: 15px;
   color: white;
 }
+
 
 #days {
   font-size: 70px;
@@ -418,6 +427,24 @@ span {
   display: inline-block;
   line-height: 1;
   padding: 20px;
+}
+
+
+@media only screen and (max-width: 564px) {
+
+    #days{
+      font-size: 50px;
+    }
+    #hours{
+      font-size: 50px;
+    }
+    #minutes{
+      font-size: 50px;
+    }
+    #seconds{
+      font-size: 50px;
+    }
+    
 }
 
 /*FAQs section*/
