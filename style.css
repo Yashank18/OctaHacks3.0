@@ -567,6 +567,7 @@ body {
     background: #48128f !important;
     transition: all ease-in-out 0.8s;
     border:1px solid black;
+    cursor: hand;
 }
 .card-ka-content{
     transition: all ease-in-out 0.8s;
@@ -574,6 +575,7 @@ body {
 .card-ka-description{
     opacity: 0;
     height: 0;
+   display: none;
     transition: all ease-in-out 0.4s;
 }
 .card:hover{
@@ -583,9 +585,11 @@ body {
 .card:hover .card-ka-content{
     opacity: 0;
     height: 0;
+   display: none;
 }
 .card:hover .card-ka-description{
     opacity: 100;
+    display: block;
     height: auto;
 }
 
