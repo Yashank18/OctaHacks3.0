@@ -516,4 +516,40 @@ body {
     background: #48128f !important;
 }
 
+#footer-section {
+    width: 102vw;
+    background-color: black;
+    text-align: center;
+    color: grey;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    align-content: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
 
