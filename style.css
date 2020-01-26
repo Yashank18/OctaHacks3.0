@@ -78,9 +78,6 @@ body{
     background-position: center;
 }
 .contentt {
-    color: #FFFFFF;
-    font-size: 26px;
-    font-weight: bold;
     position: relative;
     width:102vw; /* Changed width to 102 to prevent unwanted white bars*/
     margin-top: -10px;
@@ -615,7 +612,7 @@ body {
     align-content: center;
 }
 
-.fa {
+#fa {
     padding: 20px;
     font-size: 30px;
     width: 30px;
