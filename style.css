@@ -269,10 +269,10 @@ body{
 .timelinesection{
   background-color: black;
   width:102vw;
-      /* Needed for children to be absolutely positioned relative to the parent. */
+      /* Needed for children to be absolutely positioned relative to the ent. */
       position: relative;
       /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-      max-height: 130vh;
+      max-height: 150vh;
 }
 
 @media only screen and (max-width: 600px){
