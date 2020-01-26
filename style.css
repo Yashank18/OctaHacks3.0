@@ -66,13 +66,16 @@ body{
 }
 
 
-/* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
   background-image: url("img/top.png");
+    background-size: cover;
+    background-position: left;
 }
 
 .bg2::after {
   background-image: url("img/bg2.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 .contentt {
     color: #FFFFFF;
@@ -127,7 +130,7 @@ body{
 }
 
 .aboutsection{
-  text-align: center;min-height: 100vh;
+  text-align: center;min-height: 90vh;
    padding-top: 10px;
    background-color: black;
 }
@@ -565,7 +568,41 @@ body {
     height:225px;
     margin-bottom:30px;
     background: #48128f !important;
+    transition: all ease-in-out 0.8s;
+    border:1px solid black;
+    cursor: hand;
 }
+.card-ka-content{
+    transition: all ease-in-out 0.8s;
+}
+.card-ka-description{
+    opacity: 0;
+    height: 0;
+    display: none;
+    transition: all ease-in-out 0.4s;
+}
+.card:hover{
+    background-color: #000000 !important;
+    border:1px solid #48128f!important;
+}
+.card:hover .card-ka-content{
+    opacity: 0;
+    height: 0;
+    display: none;
+}
+.card:hover .card-ka-description{
+    opacity: 100;
+    height: auto;
+    display: block;
+}
+
+
+#description-para{
+    text-align: left;
+    padding:5px 10px;
+    color:#fff;
+}
+
 
 #footer-section {
     width: 102vw;
@@ -604,3 +641,12 @@ body {
     color: white;
 }
 
+/*Makes all the images undraggable*/
+img{
+    user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
