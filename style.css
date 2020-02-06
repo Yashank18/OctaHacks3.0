@@ -34,6 +34,8 @@ body{
     overflow-x: hidden;
 }
 
+
+
 /*CSS FOR LANDING SECTION BEGINS*/
 #wrapper {
   overflow-x: hidden;
@@ -264,6 +266,20 @@ body{
 .fa-2x { margin: 0 auto; float: none; display: table; color:#48128f; }
 
 
+
+
+
+@media only screen and (max-width: 600px){
+  .count-title{
+    font-size: 25px;
+  }
+  .count-text{
+    font-size: 10px;
+  }
+  
+}
+
+
 /*TIMELINE CSS*/
 
 .timelinesection{
@@ -454,6 +470,12 @@ span {
 }
 
 
+.previoussection
+{
+  height: 190vh;
+}
+
+
 @media only screen and (max-width: 564px) {
 
     #days{
@@ -467,6 +489,15 @@ span {
     }
     #seconds{
       font-size: 50px;
+    }
+    .previoussection
+    {
+      height: auto;
+      min-height: 70px;
+    }
+    .sponsortext
+    {
+      font-size: 16px;
     }
     
 }
