@@ -11,10 +11,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2);
+    background: black;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +35,11 @@ body{
 }
 
 
+#octa2-ki-photo-mobile{
+    display: none;
+    width: 0;
+    height: 0;
+}
 
 /*CSS FOR LANDING SECTION BEGINS*/
 #wrapper {
@@ -77,6 +82,7 @@ body{
 .bg2::after {
   background-image: url("img/bg2.jpeg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .contentt {
@@ -91,8 +97,11 @@ body{
   
 }
 
+#sponsor-logo{
+       border-radius: 20px !important;
+}
 .section2 {
-  /* Needed for children to be absolutely positioned relative to the parent. */
+    /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
@@ -125,8 +134,32 @@ body{
       background-color: black;
        padding-top: 10px;
     }
-    
+    #sponsor-logo{
+        height:auto !important;
+        width:200px!important;
+        padding:20px !important;
+        border-radius: 20px !important;
+        padding-top: none !important;
+        
+    }
+    #faq-vaali-photo{
+        width:75% !important;
+        padding-bottom: 20%;
+    }
+    #octa2-ki-photo{
+        height:0vh;
+        display: none;
+            
+    }
+    #octa2-ki-photo-mobile{
+        display: block;
+        height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    }
 }
+
 
 .aboutsection{
   text-align: center;min-height: 90vh;
