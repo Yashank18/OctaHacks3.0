@@ -136,6 +136,7 @@ body{
         height:auto !important;
         width:200px!important;
         padding:20px !important;
+        border-radius: 20px !important;
         padding-top: none !important;
         
     }
