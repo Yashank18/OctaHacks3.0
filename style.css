@@ -132,6 +132,10 @@ body{
         padding-top: none !important;
         
     }
+    #faq-vaali-photo{
+        width:75% !important;
+        padding-bottom: 20%;
+    }
 }
 
 .aboutsection{
