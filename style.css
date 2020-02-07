@@ -15,6 +15,7 @@ html, body {
 body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2);
+    background: black;
 }
 
 @media (max-width: 768px) {
