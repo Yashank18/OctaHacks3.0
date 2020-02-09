@@ -123,6 +123,8 @@ body{
     margin-top:220px;
 }
 
+
+
 @media only screen and (max-width: 564px) {
 
     #logo{
@@ -140,6 +142,7 @@ body{
         padding:20px !important;
         border-radius: 20px !important;
         padding-top: none !important;
+
         
     }
     #faq-vaali-photo{
@@ -228,6 +231,7 @@ body{
 
 
   }
+
   .counttext{
     font-size: 12px;
   }
