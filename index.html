@@ -455,14 +455,28 @@
       </script>
     </div>
     <br><br>
-    <center><font style="font-weight: bold;font-size: 20px;border-bottom: 1px solid #9f9da1;padding-bottom: 0.3%;">  <a href="#" class="code" target="_blank" style="text-decoration:none;color: #8847dd;">Code Of Conduct</a> </font></center>
+
+
+<center><font style="font-weight: bold;font-size: 20px;border-bottom: 1px solid #9f9da1;padding-bottom: 0.3%;">  <a href="#" class="code" target="_blank" style="text-decoration:none;color: #8847dd;">Code Of Conduct</a> </font></center>
     <br>
     </section> 
     
         <!-- Footer section with Map -->
         <div id="footer-section">
-            <iframe style="background-color: black;width:650;height:50vh;" frameborder="0" style="border:0" src="https://snazzymaps.com/embed/211972" allowfullscreen></iframe>
-
+            <center><script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDggofUxTHuVIyd7vsZooPN7JLaA-MvY7E">
+        </script>
+        <div style="height:32rem;width:50%;" class="mapsvala">
+          <div id="gmap_canvas" style="height:32rem;width:100%;"></div>
+          <style>
+            #gmap_canvas img {
+              max-width: none !important;
+              background: none !important;
+              color: black;
+            }
+          </style>
+          <script src="./maps.js"></script>
+        </div>
+        </center>
             <div class="text">
                 <p>
                     <br><br> Copyright OctaHacks &copy; 3.0
@@ -481,3 +495,9 @@
 </main>
   </body>
 </html>
+
+
+
+
+        
+      
