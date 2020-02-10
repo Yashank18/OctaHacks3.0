@@ -14,7 +14,7 @@ html, body {
 body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2);
-    background: black;
+  background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -146,7 +146,7 @@ body{
         
     }
     #faq-vaali-photo{
-        width:75% !important;
+        width:65% !important;
         padding-bottom: 20%;
     }
     #octa2-ki-photo{
@@ -157,8 +157,8 @@ body{
     #octa2-ki-photo-mobile{
         display: block;
         height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
     }
 
@@ -683,7 +683,12 @@ body {
     list-style-type: none;
     align-content: center;
 }
-
+@media screen and (max-width:768px) {
+  #footer-section {
+    width: 100%;
+   
+  }
+}
 #fa {
     padding: 20px;
     font-size: 30px;
@@ -731,7 +736,8 @@ user-select: none;
 
 /* Remove extra left and right margins, due to padding */
 .endrow {margin: 0 -5px;
-margin-left:15%}
+margin-left:15%;
+background-color:black;}
 
 /* Clear floats after the columns */
 .endrow:after {
@@ -739,18 +745,30 @@ margin-left:15%}
   display: table;
   clear: both;
 }
-
+#endsection{
+  width: 102vw;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
 /* Responsive columns */
-@media screen and (max-width: 500px) {
+@media screen and (max-width:768px) {
   .endcolumn {
     width: 100%;
     display: block;
     margin-bottom: 20px;
    
   }
-  
+
+  #endsection {
+    width: 100%;
+    display: block;
+    max-height: 50vh;
+   
+  }
   .endrow{
   margin-left:0%;
+
   }
 }
 
@@ -759,5 +777,6 @@ margin-left:15%}
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
+  border: 2px solid #48128f;
 }
+
