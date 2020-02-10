@@ -730,13 +730,13 @@ user-select: none;
 /* Float columns side by side */
 .endcolumn {
   float: left;
-  width: 40%;
+  width: 30%;
   padding: 0 10px;
 }
 
 /* Remove extra left and right margins, due to padding */
 .endrow {margin: 0 -5px;
-margin-left:15%;
+margin-left:27%;
 background-color:black;}
 
 /* Clear floats after the columns */
