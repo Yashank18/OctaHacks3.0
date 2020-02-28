@@ -23,19 +23,8 @@ body {
   }
 
 }
-<<<<<<< HEAD
-
-[aos="fade"] {
-  opacity: 0;
-  transition-property: opacity;
-}
-
-[aos="fade"].aos-animate {
-  opacity: 1;
-=======
 #sponsor-logo{
   filter: grayscale(100%);
->>>>>>> fb79c11a94a154a751eef3d748d6a081e8f820b1
 }
 
 h1, h2, h3, h4, h5, h6 {
