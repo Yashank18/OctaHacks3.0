@@ -16,6 +16,7 @@
 
       <!--import main stylesheet-->
       <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <!--import bootstrap css-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -30,7 +31,7 @@
         <section class="contentt parallax bg1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div  data-aos="fade-up" class="col-md-12">
                         <center>
                         <img id="logo" src="img/octahacks3.png"><br><br>
                         <font style="color: rgb(226, 212, 212);font-size: 19px;font-family: Maven Pro;background-color: black;"><i class="fa fa-calendar"></i> 4-5th September, 2020 <br> <i class="fa fa-map-marker"></i> Chitkara University, Rajpura </font>
@@ -48,7 +49,7 @@
     <!--ABOUT SECTION STARTS-->
     <section class=" aboutsection" >
             <br> <br> <br> <br>
-            <div class="aboutrow" style="">
+            <div class="aboutrow">
             <div >
             <p class="sectionn-heading" style="font-weight: bold;">What is OctaHacks?</p>
             <span style="text-align: center; color: rgb(211, 203, 203);letter-spacing: 0.1em" class="abouttext"> OctaHacks is the annual flagship event of DSC, Chitkara University, Rajpura, where innovators get an opportunity to merge their creative ideas with their technical skills to build something exemplary. It's a place where your ideas will get acknowledged. 
@@ -559,6 +560,10 @@ function setClass(els, className, fnName) {
             <!-- Footer section ends here -->
 
 </main>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
 
