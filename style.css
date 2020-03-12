@@ -15,6 +15,7 @@ body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2);
   background-color: black;
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -32,9 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
-body{
-    overflow-x: hidden;
-}
+
 
 
 #octa2-ki-photo-mobile{
@@ -45,9 +44,9 @@ body{
 
 /*CSS FOR LANDING SECTION BEGINS*/
 #wrapper {
-  overflow-x: hidden;
+  
   /* Enable scrolling on the page. */
-  overflow-y: auto;
+  
   /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
   perspective: 2px;
   height: 100vh;
@@ -599,7 +598,7 @@ span {
   padding: 0 1rem;
   max-height: 0;
   border-bottom: 1px solid #222222;
-  overflow: hidden;
+  
   clear: both;
   -webkit-transition: all 0.2s ease 0.15s;
   -o-transition: all 0.2s ease 0.15s;
