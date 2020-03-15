@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
       <!--import main stylesheet-->
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="refer.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <!--import bootstrap css-->
@@ -44,30 +44,42 @@
             </div>
         </section>
     <!--LANDING SECTION ENDS-->
-        
+        <!-- coming soon -->
     <!--ABOUT SECTION STARTS-->
     <section class=" aboutsection" >
             <br> <br> <br> <br>
             <div class="aboutrow">
             <div >
-            <p class="sectionn-heading" style="font-weight: bold;opacity: 0">What is OctaHacks?</p>
+            <p class="sectionn-heading" style="font-weight: 200;font-family: sans-serif;opacity: 0;">Coming Soon 🎉</p>
 
-            <span style="text-align: center; color: rgb(211, 203, 203);letter-spacing: 0.1em;opacity: 0" class="abouttext"> OctaHacks is the annual flagship event of DSC, Chitkara University, Rajpura, where innovators get an opportunity to merge their creative ideas with their technical skills to build something exemplary. It's a place where your ideas will get acknowledged. 
+            <!--<span style="text-align: center; color: black;letter-spacing: 0.1em;opacity: 0" class="abouttext"> OctaHacks is the annual flagship event of DSC, Chitkara University, Rajpura, where innovators get an opportunity to merge their creative ideas with their technical skills to build something exemplary. It's a place where your ideas will get acknowledged. 
             <br><br>
               OctaHacks is a 30-Hour hackathon that takes place in Chitkara University, Rajpura. With it's third edition,<font style="color:#8847dd;"> OctaHacks 3.0 </font>coming this September, we promise to make it even bigger and better.
             </span>
             <br> <br>
-                <p class="counttext" style="opacity: 0"> COUNT EVERY SECOND UNTIL THE HACKATHON</p> 
+                <p class="counttext" style="opacity: 0"> COUNT EVERY SECOND UNTIL THE HACKATHON</p> -->
             </div>
             </div>       
-            <br>
+            
                 <div id="timer" style="opacity: 0">
                   <div id="days"></div> 
                   <div id="hours"></div>
                   <div id="minutes"></div>
                   <div id="seconds"></div>
                 </div>
-                
+               <div class="container">
+                <div class="row">
+                <div class="col-md-8" style="text-align: left;font-weight: 800">
+                  <p style="font-size: 40px;font-weight: 800;color: white;font-family: sans-serif;">WHAT IS</p>
+                  <p ><span style="color: #BA0027;font-size: 35px;display: inline;">OC</span><span style="color: #F3AB1B;font-size: 35px;display: inline; ">TA</span><span style="color: #5271FF;font-size: 35px;display: inline; "> HA</span><span style="color: #128708;font-size: 35px;display: inline; ">CK</span><span style="color: #57C181;font-size: 35px;display: inline; ">S?</span></p>
+
+
+                </div> 
+                  <p style="font-size: 22px;margin-bottom: .5rem;font-weight: 500;line-height: 1.2;color: rgb(194, 195, 196);text-align: left ">OctaHacks is the annual flagship event of DSC, Chitkara University, Rajpura, where innovators get an opportunity to merge their creative ideas with their technical skills to build something exemplary. It's a place where your ideas will get acknowledged. 
+              OctaHacks is a 30-Hour hackathon that takes place in Chitkara University, Rajpura. With it's third edition, OctaHacks 3.0 coming this September, we promise to make it even bigger and better.</p>
+                </div>
+                 
+               </div> 
 
     </section>
     <!--ABOUT SECTION ENDS-->
@@ -668,7 +680,7 @@ function setClass(els, className, fnName) {
 				        offset: '60%'
 				      });
 				       $('#timer').waypoint(function(direction) {
-				        $('#timer').addClass('animated fadeInLeft slow')
+				        $('#timer').addClass('animated fadeInRight slow')
 				        
 				      }, {
 				        offset: '60%'
