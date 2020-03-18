@@ -14,7 +14,7 @@ html, body {
 body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: rgba(224, 224, 224, 0.2);
-  background-color: black;
+ 
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -217,7 +217,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     height: 80px;
     color: white;
-    font-size: 52px;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 .counttext{
   text-align: center; color:#8847dd; font-size: 20px;
@@ -361,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #e3b5b5;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -384,7 +386,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #48128f;
+  border: 4px solid #62acb5;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -436,11 +438,11 @@ h1, h2, h3, h4, h5, h6 {
 /* The actual content */
 .timeline-content {
   padding: 20px 30px;
-  background-color: black;
+  background-color: #ececec;
   position: relative;
   border-radius: 6px;
-  border:medium solid #48128f;
-  color:white;
+  border:medium solid #e3b5b5;
+  color:black;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -791,3 +793,5 @@ background-color:black;}
   background-color: #222222;
 }
 
+.ss-style-doublediagonal{background-color:#ebebeb;padding:5% 20px;-webkit-transform:skewY(-5deg);-moz-transform:skewY(-5deg);-ms-transform:skewY(-5deg);-o-transform:skewY(-5deg);transform:skewY(-5deg);}
+.ss-style-doublediagonal{-webkit-transform:skewY(-5deg);-moz-transform:skewY(-5deg);-ms-transform:skewY(-5deg);-o-transform:skewY(-5deg);transform:skewY(-5deg)}
